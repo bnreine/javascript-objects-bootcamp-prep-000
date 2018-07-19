@@ -2,17 +2,14 @@ var playlist={};
 playlist[Slowdive]="Alison";
 playlist['My Bloody Valentine']='Sometimes';
 
-
+function updatePlaylist(playlist, artistName, songTitle) {
+  playlist[artistName]=singTitle;
+}
 
 
 
 
 /*
- it('defines an object called `playlist` containing at least one artist-song pair', () => {
-    expect(typeof playlist).to.equal('object')
-    expect(Object.keys(playlist).length).to.be.greaterThan(0)
-  })
-
   describe('updatePlaylist(playlist, artistName, songTitle)', () => {
     before(() => {
       playlist['Slowdive'] = 'Alison'
